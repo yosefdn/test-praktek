@@ -1,0 +1,89 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @fortawesome/fontawesome-svg-core
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Y.F-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Y.F-PC\AppData\Roaming\npm;C:\Users\Y.F-PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Y.F-PC\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs-compat/-/rxjs-compat-6.3.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130024:19)
+      at Object.onceWrapper (events.js:273:13)
+      at ClientRequest.emit (events.js:182:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:273:13)
+      at TLSSocket.emit (events.js:182:13)
+      at TLSSocket.Socket._onTimeout (net.js:453:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "test-praktek",
+    "version": "0.0.0",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^7.2.2",
+      "@angular/cdk": "^7.2.2",
+      "@angular/common": "~7.2.0",
+      "@angular/compiler": "~7.2.0",
+      "@angular/core": "~7.2.0",
+      "@angular/forms": "~7.2.0",
+      "@angular/http": "^7.2.2",
+      "@angular/material": "^7.2.2",
+      "@angular/platform-browser": "~7.2.0",
+      "@angular/platform-browser-dynamic": "~7.2.0",
+      "@angular/router": "~7.2.0",
+      "core-js": "^2.5.4",
+      "hammerjs": "^2.0.8",
+      "rxjs": "^6.3.3",
+      "rxjs-compat": "^6.3.3",
+      "tslib": "^1.9.0",
+      "yarn": "^1.13.0",
+      "zone.js": "~0.8.26"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "~0.12.0",
+      "@angular/cli": "~7.2.2",
+      "@angular/compiler-cli": "~7.2.0",
+      "@angular/language-service": "~7.2.0",
+      "@types/node": "~8.9.4",
+      "@types/jasmine": "~2.8.8",
+      "@types/jasminewd2": "~2.0.3",
+      "codelyzer": "~4.5.0",
+      "jasmine-core": "~2.99.1",
+      "jasmine-spec-reporter": "~4.2.1",
+      "karma": "~3.1.1",
+      "karma-chrome-launcher": "~2.2.0",
+      "karma-coverage-istanbul-reporter": "~2.0.1",
+      "karma-jasmine": "~1.1.2",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.4.0",
+      "ts-node": "~7.0.0",
+      "tslint": "~5.11.0",
+      "typescript": "~3.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
